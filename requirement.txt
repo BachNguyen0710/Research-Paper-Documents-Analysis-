@@ -1,0 +1,7 @@
+requests
+pandas
+sci-klearn
+matplotlib
+umap-learn
+torch
+transformers
