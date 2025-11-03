@@ -16,4 +16,7 @@ options:
   * --n-clusters: tham số cluster
   * --neighbors: tham số neighbors (mặc định 15)
 ```bash
-py src/umap_visualization.py --input output/embeddings.jsonl --titles data/biorxiv_sciedu.csv --output umap_clusters.html --n-clusters 6
+### Cosine Method
+py src/umap_visualization-Cosine.py --input output/embeddings.jsonl --titles data/biorxiv_sciedu.csv --output umap_clusters-Consine.html --n-clusters 6
+### Euclide Method
+py src/umap_visualization-Euclide.py --input output/embeddings.jsonl --titles data/biorxiv_sciedu.csv --output umap_clusters-Euclide.html --n-clusters 6
