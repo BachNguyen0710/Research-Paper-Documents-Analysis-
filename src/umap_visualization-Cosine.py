@@ -54,7 +54,6 @@ def main():
     print(f"Running KMeans clustering with {args.n_clusters} clusters (on L2-normalized data)...")
     kmeans = KMeans(n_clusters=args.n_clusters, random_state=42, n_init=10)
     
-    # 3. Chạy KMeans trên dữ liệu đã chuẩn hóa
     cluster_labels = kmeans.fit_predict(embeddings_normalized)
 
     # -------------------- Prepare DataFrame --------------------
