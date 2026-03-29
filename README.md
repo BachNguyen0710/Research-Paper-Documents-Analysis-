@@ -112,13 +112,13 @@ docker logs -f paper-container
 
 5. Stop container when no use:
 ```bash
-docker stop taxi-container
+docker stop paper-container
 ```
 
 6. **Nex run time, only access `http://localhost:8000`**.
 * if container stopped, run container:
   ```bash
-  docker start taxi-container
+  docker start paper-container
   ```
 * check if container is running:
   ```bash
